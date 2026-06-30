@@ -20,13 +20,13 @@ Currently I am turning that experience into public Go portfolio projects and foc
 
 ## Core expertise
 
-**Backend:** Go, REST/HTTP APIs, gRPC, protobuf, routing, middleware, validation, service layers
-**Architecture:** modular monoliths, layered architecture, service-oriented architecture, service boundaries
-**Messaging & data:** Redis, MySQL, PostgreSQL, SQLite, MongoDB, ClickHouse, queues, message routing
-**Performance & reliability:** pprof, load testing, concurrency, bottleneck analysis, graceful shutdown, retries
-**Observability:** Prometheus, Grafana, Loki, OpenTelemetry basics, structured logging, metrics
-**Infrastructure:** Linux, Docker, Docker Compose, Git, GitHub/GitLab, CI basics, Ansible
-**Telecom background:** SMPP, SS7/SIGTRAN, SCTP, HLR, MNP, SMS routing
+* **Backend:** Go, REST/HTTP APIs, gRPC, protobuf, routing, middleware, validation, service layers
+* **Architecture:** modular monoliths, layered architecture, service-oriented architecture, service boundaries
+* **Messaging & data:** Redis, MySQL, PostgreSQL, SQLite, MongoDB, ClickHouse, queues, message routing
+* **Performance & reliability:** pprof, load testing, concurrency, bottleneck analysis, graceful shutdown, retries
+* **Observability:** Prometheus, Grafana, Loki, OpenTelemetry basics, structured logging, metrics
+* **Infrastructure:** Linux, Docker, Docker Compose, Git, GitHub/GitLab, CI basics, Ansible
+* **Telecom background:** SMPP, SS7/SIGTRAN, SCTP, HLR, MNP, SMS routing
 
 Currently practicing: Kubernetes basics, NATS/JetStream, OpenAPI, CI/CD, HTMX and server-side rendering.
 
@@ -39,29 +39,25 @@ Currently practicing: Kubernetes basics, NATS/JetStream, OpenAPI, CI/CD, HTMX an
 I am building practical Go Web/API skills around:
 
 * `net/http`, Chi, routing and middleware
-* server-side rendering and MPA-style applications
 * REST APIs, validation, errors and API contracts
-* SQL-backed applications with migrations and tests
-* authentication, sessions, cookies and basic API security
-* OpenAPI and handoff documentation
+* SQL-backed applications with migrations, tests and authentication
+* server-side rendering, OpenAPI and handoff documentation
 
 ### Go Microservices / Messaging
 
 I am practicing microservice fundamentals with:
 
 * gRPC and protobuf contracts
-* service boundaries and communication patterns
 * NATS/JetStream and event-driven architecture
+* service boundaries, communication patterns and Docker-based local development
 * background workers, retries, idempotency and DLQ ideas
-* Docker-based local development
 
 ### Performance / Observability
 
 I am turning production experience into public practice projects around:
 
 * Redis queues and message-processing pipelines
-* profiling with `pprof`
-* goroutine, memory, CPU and lock/contention analysis
+* profiling with `pprof`: goroutines, memory, CPU and lock/contention analysis
 * Prometheus/Grafana dashboards
 * reliability and operational checklists
 
@@ -143,11 +139,11 @@ I am shaping my public portfolio around two practical offers:
 
 Before focusing on Go backend systems, I worked with C++, Java/JAIN SLEE, Python/OpenCV/TensorFlow, Solidity/Web3 and system-level/backend projects.
 
-That background still helps: I am comfortable reading old systems, understanding protocols, debugging ugly runtime behavior, and not panicking when software behaves like software.
+That background still helps: I am comfortable reading legacy systems, understanding protocols, and debugging complex runtime behavior.
 
 ---
 
-# Contact
+## Contact
 
 * Email: [sergey.povarnin@gmail.com](mailto:sergey.povarnin@gmail.com)
 * LinkedIn: [linkedin.com/in/serhii-povarnin](https://www.linkedin.com/in/serhii-povarnin/)
