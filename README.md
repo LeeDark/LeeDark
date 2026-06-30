@@ -67,7 +67,7 @@ I am turning production experience into public practice projects around:
 
 ### [book-social](https://github.com/LeeDark/book-social)
 
-Go-based book social platform prototype and main applied portfolio project.
+Go-based book social platform prototype and primary applied portfolio project.
 
 Focus:
 
@@ -102,15 +102,15 @@ Focus:
 
 ### [go-microservices-starter](https://github.com/LeeDark/go-microservices-starter)
 
-Go microservices learning path and experiments.
+Go microservices learning repository based on a course-style buildout, used to practice service communication, protobuf contracts and deployment basics.
 
 Focus:
 
-* REST and gRPC services
+* REST and gRPC service examples
 * protobuf contracts
 * Docker-based local setup
 * microservice communication patterns
-* observability, reliability and deployment basics
+* observability and reliability fundamentals
 
 ---
 
