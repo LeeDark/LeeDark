@@ -1,49 +1,155 @@
-# About me 👋
+# Hi, I'm Serhii 👋
 
-Go backend engineer focused on web/microservices. I build gRPC/HTTP services,
-care about latency and reliability, and keep systems observable (metrics/logs/traces).
+Senior Go Backend Engineer focused on backend services, APIs, messaging systems, reliability, performance, and observability.
 
-Current: go-web-labs — labs and patterns for APIs, storage, and observability.
+I have production experience in telecom and high-load messaging systems: SMPP, SS7/SIGTRAN, Redis-based queues, MySQL, MongoDB, ClickHouse, Prometheus, Grafana and Loki.
+Currently I am turning that experience into public Go portfolio projects and focused learning labs around Web/API development, microservices, profiling, queues, and observability.
 
+---
 
-# Expertise
+## What I work on
 
-- Designing gRPC/HTTP services with clean contracts and backpressure
-- Performance: pprof, flamegraphs, lock/contention analysis
-- Observability: Prometheus, OpenTelemetry, Grafana
-- Storage: MySQL/Postgres, Redis patterns, MongoDB and ClickHouse basics
-- Messaging/reliability: retries, idempotency, dead-letter queues
-- Telecom: SS7/SIGTRAN, MNP/HLR, SMS routing
+* Building and improving Go backend services: HTTP APIs, gRPC services, background workers, integrations
+* Designing service boundaries, modular monoliths, and service-oriented systems
+* Improving reliability: graceful shutdown, timeouts, retries, idempotency, queue processing
+* Profiling Go services with `pprof` and investigating CPU, memory, goroutines, locks, queues and latency
+* Adding useful observability: metrics, structured logs, dashboards, health checks and operational notes
+* Keeping backend projects readable, testable and maintainable, because future humans deserve mercy too
 
+---
 
-# Tech Skills
+## Core expertise
 
-Go • gRPC/HTTP • Redis • MySQL • Postgres • MongoDB • Linux • Docker • Prometheus • OpenTelemetry • Grafana
+**Backend:** Go, REST/HTTP APIs, gRPC, protobuf, routing, middleware, validation, service layers
+**Architecture:** modular monoliths, layered architecture, service-oriented architecture, service boundaries
+**Messaging & data:** Redis, MySQL, PostgreSQL, SQLite, MongoDB, ClickHouse, queues, message routing
+**Performance & reliability:** pprof, load testing, concurrency, bottleneck analysis, graceful shutdown, retries
+**Observability:** Prometheus, Grafana, Loki, OpenTelemetry basics, structured logging, metrics
+**Infrastructure:** Linux, Docker, Docker Compose, Git, GitHub/GitLab, CI basics, Ansible
+**Telecom background:** SMPP, SS7/SIGTRAN, SCTP, HLR, MNP, SMS routing
 
+Currently practicing: Kubernetes basics, NATS/JetStream, OpenAPI, CI/CD, HTMX and server-side rendering.
 
-# Interests or I'm currently learning ...
+---
 
-- Go, Backend, Web/REST
-- SQL, SQLite, MySQL, Postgres
-- Architectures I apply:
-    - **Layered** for quick starts; **Clean/Hexagonal** when boundaries matter.
-    - **Modular Monolith** with clear packages; migrate to services when needed.
-    - **Observability-first**: metrics, tracing, structured logs, SLO-minded timeouts.
-- Observability / Monitoring
-    - **Observability**: ability to answer unknown questions from telemetry.
-    - **Telemetry**: metrics, logs, traces; **Profiling** for CPU/mem/locks.
-    - **Monitoring**: SLO-based alerts (latency p99, error rate), dashboards for dependencies.
-    - **Practices**: correlation IDs in logs, end-to-end tracing, budgets/timeouts, structured logs.
-- TDD/BDD, DDD/FDD/MDD/PDD.
-- DevOps: Docker/Compose, Kubernetes/Helm, Grafana/Prometheus, Terraform/Ansible.
+## Current focus
 
+### Go Web / Backend APIs
 
-# Projects or I'm currently working on ...
+I am building practical Go Web/API skills around:
 
-- go-web-labs - labs for REST APIs, storage, observability
-- go-microservices-starter - starter pack for microservices
+* `net/http`, Chi, routing and middleware
+* server-side rendering and MPA-style applications
+* REST APIs, validation, errors and API contracts
+* SQL-backed applications with migrations and tests
+* authentication, sessions, cookies and basic API security
+* OpenAPI and handoff documentation
 
+### Go Microservices / Messaging
+
+I am practicing microservice fundamentals with:
+
+* gRPC and protobuf contracts
+* service boundaries and communication patterns
+* NATS/JetStream and event-driven architecture
+* background workers, retries, idempotency and DLQ ideas
+* Docker-based local development
+
+### Performance / Observability
+
+I am turning production experience into public practice projects around:
+
+* Redis queues and message-processing pipelines
+* profiling with `pprof`
+* goroutine, memory, CPU and lock/contention analysis
+* Prometheus/Grafana dashboards
+* reliability and operational checklists
+
+---
+
+## Projects
+
+### [book-social](https://github.com/LeeDark/book-social)
+
+Go-based book social platform prototype and main applied portfolio project.
+
+Focus:
+
+* modular monolith architecture
+* layered HTTP services
+* server-side rendering
+* SQL-backed domain model
+* catalog, books, authors, genres and user-facing pages
+* Docker/Compose and basic deployment practice
+* tests, documentation and gradual API evolution
+
+This is where patterns from my Go Web labs become a real application.
+
+---
+
+### [go-web-labs](https://github.com/LeeDark/go-web-labs)
+
+Learning and reference repository for practical Go web development.
+
+Focus:
+
+* Go web fundamentals
+* REST API patterns
+* routing, middleware and handlers
+* SQL, migrations and storage patterns
+* testing basics
+* API security notes
+* OpenAPI and documentation
+* reusable patterns for `book-social`
+
+---
+
+### [go-microservices-starter](https://github.com/LeeDark/go-microservices-starter)
+
+Go microservices learning path and experiments.
+
+Focus:
+
+* REST and gRPC services
+* protobuf contracts
+* Docker-based local setup
+* microservice communication patterns
+* observability, reliability and deployment basics
+
+---
+
+### Planned / in progress
+
+* `redis-queue-lab` — Redis queues, retries, idempotency, backpressure, DLQ and metrics
+* `go-profiling-lab` — Go profiling scenarios with pprof, goroutines, locks, memory and latency
+* `go-service-starter` — small Go backend service skeleton with API, DB, tests, Docker and observability basics
+* `go-perf-audit-sandbox` — performance audit playground for profiling and bottleneck analysis
+
+---
+
+## Freelance focus
+
+I am shaping my public portfolio around two practical offers:
+
+1. **Go Backend APIs & Integrations**
+   Small backend fixes, REST/gRPC endpoints, database-backed features, integrations, tests and handoff notes.
+
+2. **Go Performance, Profiling & Observability**
+   Profiling, bottleneck analysis, queue/reliability improvements, metrics, dashboards and practical reliability fixes.
+
+---
+
+## Earlier background
+
+Before focusing on Go backend systems, I worked with C++, Java/JAIN SLEE, Python/OpenCV/TensorFlow, Solidity/Web3 and system-level/backend projects.
+
+That background still helps: I am comfortable reading old systems, understanding protocols, debugging ugly runtime behavior, and not panicking when software behaves like software.
+
+---
 
 # Contact
 
-Email: sergey.povarnin@gmail.com • Telegram: @thom_york_ua • LinkedIn: https://www.linkedin.com/in/serhii-povarnin/
+* Email: [sergey.povarnin@gmail.com](mailto:sergey.povarnin@gmail.com)
+* LinkedIn: [linkedin.com/in/serhii-povarnin](https://www.linkedin.com/in/serhii-povarnin/)
+* GitHub: [github.com/LeeDark](https://github.com/LeeDark)
+* Telegram: @thom_york_ua
