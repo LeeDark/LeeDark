@@ -24,11 +24,11 @@ Currently I am turning that experience into public Go portfolio projects and foc
 * **Architecture:** modular monoliths, layered architecture, service-oriented architecture, service boundaries
 * **Messaging & data:** Redis, MySQL, PostgreSQL, SQLite, MongoDB, ClickHouse, queues, message routing
 * **Performance & reliability:** pprof, load testing, concurrency, bottleneck analysis, graceful shutdown, retries
-* **Observability:** Prometheus, Grafana, Loki, OpenTelemetry basics, structured logging, metrics
+* **Observability:** Prometheus, Grafana, Loki, structured logging, metrics
 * **Infrastructure:** Linux, Docker, Docker Compose, Git, GitHub/GitLab, CI basics, Ansible
 * **Telecom background:** SMPP, SS7/SIGTRAN, SCTP, HLR, MNP, SMS routing
 
-Currently practicing: Kubernetes basics, NATS/JetStream, OpenAPI, CI/CD, HTMX and server-side rendering.
+Currently practicing: Kubernetes basics, NATS/JetStream, OpenAPI, CI/CD, OpenTelemetry, HTMX and server-side rendering.
 
 ---
 
@@ -116,8 +116,13 @@ Focus:
 
 ### Planned / in progress
 
-* `redis-queue-lab` — Redis queues, retries, idempotency, backpressure, DLQ and metrics
+In progress:
+
 * `go-profiling-lab` — Go profiling scenarios with pprof, goroutines, locks, memory and latency
+
+Planned:
+
+* `redis-queue-lab` — Redis queues, retries, idempotency, backpressure, DLQ and metrics
 * `go-service-starter` — small Go backend service skeleton with API, DB, tests, Docker and observability basics
 * `go-perf-audit-sandbox` — performance audit playground for profiling and bottleneck analysis
 
