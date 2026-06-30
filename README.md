@@ -1,4 +1,4 @@
-![Serhii Povarnin - Go Backend Engineer](assets/profile-banner.png)
+![Serhii Povarnin - Go Backend Engineer](assets/profile-banner.jpg)
 
 # Hi, I'm Serhii 👋
 
