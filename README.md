@@ -1,13 +1,22 @@
+![Serhii Povarnin - Go Backend Engineer](assets/profile-banner.png)
+
 # Hi, I'm Serhii 👋
 
 Senior Go Backend Engineer focused on backend services, APIs, messaging systems, reliability, performance, and observability.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 
 I have production experience in telecom and high-load messaging systems: SMPP, SS7/SIGTRAN, Redis-based queues, MySQL, MongoDB, ClickHouse, Prometheus, Grafana and Loki.
 Currently I am turning that experience into public Go portfolio projects and focused learning labs around Web/API development, microservices, profiling, queues, and observability.
 
 ---
 
-## What I work on
+## ⚙️ What I work on
 
 * Building and improving Go backend services: HTTP APIs, gRPC services, background workers, integrations
 * Designing service boundaries, modular monoliths, and service-oriented systems
@@ -18,7 +27,7 @@ Currently I am turning that experience into public Go portfolio projects and foc
 
 ---
 
-## Core expertise
+## 🛠 Core expertise
 
 * **Backend:** Go, REST/HTTP APIs, gRPC, protobuf, routing, middleware, validation, service layers
 * **Architecture:** modular monoliths, layered architecture, service-oriented architecture, service boundaries
@@ -32,7 +41,7 @@ Currently practicing: Kubernetes basics, NATS/JetStream, OpenAPI, CI/CD, OpenTel
 
 ---
 
-## Current focus
+## 🎯 Current focus
 
 ### Go Web / Backend APIs
 
@@ -63,7 +72,7 @@ I am turning production experience into public practice projects around:
 
 ---
 
-## Projects
+## 🚀 Projects
 
 ### [book-social](https://github.com/LeeDark/book-social)
 
@@ -128,7 +137,7 @@ Planned:
 
 ---
 
-## Freelance focus
+## 💼 Freelance focus
 
 I am shaping my public portfolio around two practical offers:
 
@@ -140,7 +149,7 @@ I am shaping my public portfolio around two practical offers:
 
 ---
 
-## Earlier background
+## 🧭 Earlier background
 
 Before focusing on Go backend systems, I worked with C++, Java/JAIN SLEE, Python/OpenCV/TensorFlow, Solidity/Web3 and system-level/backend projects.
 
@@ -148,7 +157,7 @@ That background still helps: I am comfortable reading legacy systems, understand
 
 ---
 
-## Contact
+## 📬 Contact
 
 * Email: [sergey.povarnin@gmail.com](mailto:sergey.povarnin@gmail.com)
 * LinkedIn: [linkedin.com/in/serhii-povarnin](https://www.linkedin.com/in/serhii-povarnin/)
